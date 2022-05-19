@@ -1,11 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.list {
+  list-style: none;
+}
 
 
 
-.post {
-    color: green;
-  }
-  
+/* font main background: #212121; */
+/* font main 2 background: #757575; */
+/* font aсcent background: #2196F3; */
+/* font aсcent 2 background: #FFFFFF; */
+/* hero background color: #2F303A; */
+/* main background color: #FFFFFF; */
+/* section team background color F5F4FA */
