@@ -4,6 +4,7 @@
   --accent-text-color: #2196F3;
   --accent2-text-color: #FFFFFF;
   --background-accent: #2F303A;
+  --background2-accent: #F5F4FA;
 }
 
 /* font main background: #212121; */
@@ -17,7 +18,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
-  background: #FFFFFF;
+  background: var(--accent2-text-color);
   color: var(--primary-text-color);
 }
 
@@ -25,24 +26,20 @@ body {
   list-style: none;
 }
 
-
+.link {
+  text-decoration: none;
+}
+/* -------------------------header--------------------*/
 .header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.192;
+  line-height: 1.19;
 }
 
 .header-logo>span {
   color: var(--accent-text-color);
 }
-
-
-.link {
-  text-decoration: none;
-}
-
-
 
 .header-nav {}
 
@@ -66,9 +63,9 @@ body {
   color: var(--accent-text-color)
 }
 
-
+/*-------------------------hero---------------------*/
 .hero {
-  background: #2F303A;
+  background: var(--background-accent);
 }
 
 .hero-text {
@@ -91,16 +88,19 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--accent2-text-color);
-  background: #2196F3;
+  background: var(--accent-text-color);
   cursor: pointer;
 }
+
+/* -----------------------main part ----------------*/
 
 .portfolio-btn {
+  background-color: var(--background2-accent);
   cursor: pointer;
-  background-color: var(--secondary-text-collor);
 }
 
-.portfolio-btn:hover .portfolio-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   color: var(--accent2-text-color);
   background-color: var(--accent-text-color);
 }
@@ -166,21 +166,24 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  color: #757575;
+  color: var(--secondary-text-collor);
 }
 
+/*--------------------footer----------------------------*/
+
 .footer {
-  background:var(--background-accent)
+  background: var(--background-accent)
 }
 
 .footer-logo {
-  color:var(--accent2-text-color) 
+  color: var(--accent2-text-color)
 }
+
 .footer-logo>span {
   color: var(--accent-text-color)
 }
 
-.footer-map-link{
+.footer-map-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -188,7 +191,7 @@ body {
 }
 
 .footer-contact {
-font-style: normal;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
