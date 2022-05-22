@@ -5,6 +5,7 @@
   --accent2-text-color: #FFFFFF;
   --background-accent: #2F303A;
   --background2-accent: #F5F4FA;
+  --logo-color: #000000;
 }
 
 /* font main background: #212121; */
@@ -36,6 +37,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  color: var(--logo-color);
 }
 
 .header-logo>span {
@@ -54,7 +56,11 @@ body {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-collor);
+}
+
+.header-link{
+color: var(--primary-text-color);
 }
 
 .header-link:hover,
@@ -81,6 +87,7 @@ body {
 }
 
 .hero-btn {
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -98,6 +105,12 @@ body {
 .portfolio-btn {
   background-color: var(--background2-accent);
   cursor: pointer;
+      font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+        text-align: center;
+        border:none
+   
 }
 
 .portfolio-btn:hover,
@@ -142,7 +155,7 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.6;
+  line-height: 1.16;
 }
 
 .ocupation-list {}
@@ -160,13 +173,13 @@ body {
 .team-item-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.18;
 }
 
 .team-item-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.18;
   color: var(--secondary-text-collor);
 }
 
@@ -177,6 +190,7 @@ body {
 }
 
 .footer-logo {
+font-family: 'Raleway', sans-serif;
   color: var(--accent2-text-color)
 }
 
@@ -196,4 +210,20 @@ body {
 
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  /* 1 */
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  /* 2 */
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
 }
