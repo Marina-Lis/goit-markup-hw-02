@@ -59,8 +59,8 @@ body {
   color: var(--secondary-text-collor);
 }
 
-.header-link{
-color: var(--primary-text-color);
+.header-link {
+  color: var(--primary-text-color);
 }
 
 .header-link:hover,
@@ -103,14 +103,16 @@ color: var(--primary-text-color);
 /* -----------------------main part ----------------*/
 
 .portfolio-btn {
-  background-color: var(--background2-accent);
+
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
   cursor: pointer;
-      font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-        text-align: center;
-        border:none
-   
+  border: none;
+  background-color: var(--background2-accent);
+
 }
 
 .portfolio-btn:hover,
@@ -190,7 +192,10 @@ color: var(--primary-text-color);
 }
 
 .footer-logo {
-font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   color: var(--accent2-text-color)
 }
 
